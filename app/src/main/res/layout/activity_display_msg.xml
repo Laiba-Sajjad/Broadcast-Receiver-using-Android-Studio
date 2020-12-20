@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayMsg"
+    android:background="#87CEEB">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="72dp"
+        android:layout_y="44dp"
+        android:text="Display Messages"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/display_act_msg"
+        android:layout_width="170dp"
+        android:layout_height="56dp"
+        android:layout_x="28dp"
+        android:layout_y="550dp"
+        android:text="Display Messages" />
+
+    <Button
+        android:id="@+id/display_back"
+        android:layout_width="170dp"
+        android:layout_height="56dp"
+        android:layout_x="221dp"
+        android:layout_y="550dp"
+        android:text="Back" />
+
+
+    <TextView
+        android:id="@+id/display_txt"
+        android:layout_width="211dp"
+        android:layout_height="69dp"
+        android:textSize="24dp"
+        android:gravity="center_horizontal"
+        android:layout_x="106dp"
+        android:layout_y="281dp"
+        android:text=" " />
+
+</AbsoluteLayout>
